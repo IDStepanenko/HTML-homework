@@ -1,0 +1,50 @@
+body {
+    background-color: #9d9167;
+}
+
+.title {
+    font-size: 2em;
+    color: #E8D1A7;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+#principal {
+    font-size: 3em;
+    color: #743014;
+}
+
+img {
+    height:  200px; /* Mantén el ancho que prefieras */
+    border: 2px solid #E8D1A7;
+    padding: 1em;
+    border-radius: 10%;
+    transition: 1s;
+}
+
+img:hover {
+    background-color: #84592B;
+}
+
+#bienvenida {
+    border: 2px solid #84592B;
+    width: 50vw;
+    margin: auto;
+    text-align: center;
+}
+
+#img-container {
+    background-color: #84592B;
+    width: 60vw;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-radius: 5%;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}

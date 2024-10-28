@@ -4,11 +4,18 @@
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Mi Primer Sitio Web</title>
+      <link rel="stylesheet" href="./styles.css">
+      <link rel="stylesheet" href="./reset.css">
+       
    </head>
    <body>
 
       <header>
-         <h1>Mi primer página web</h1>
+         <div id="bienvenida">   
+
+            <h1 id="principal">Mi primer página web</h1>
+            
+         </div>
          
          <div>
 
@@ -23,7 +30,7 @@
          <section>
             <div>
                
-               <h2>Sobre mí</h2>
+               <h2 class="title">Sobre mí</h2>
                <p>Aquí te doy algunos datos básicos que describen un poco cómo soy</p>
 
             </div>
@@ -34,7 +41,7 @@
          <section>
             <div>
 
-               <h3>Descripción</h3> 
+               <h3 class="title">Descripción</h3> 
                <p>Tengo 29 años, soy capricornio y quiero empezar una carrera en programación.</p> 
 
             </div>
@@ -46,16 +53,32 @@
 
             <div>
 
-               <h3>Hobbies</h3>
+               <h3 class="title">Hobbies</h3>
                <p>Una lista no ordenada de cosas que me gusta hacer</p>
                <ul>
                   <li>Ver series y películas</li>
                   <li>Leer</li>
                   <li>Tocar el ukelele</li>
                </ul>
-               <img src="https://i.pinimg.com/564x/f9/a8/37/f9a8374812edd15526bec649d530f2f9.jpg">
-               <img src="https://i.pinimg.com/enabled_hi/564x/6b/78/c9/6b78c957aba2d8da4e794016012c3708.jpg">
-               <img src="https://i.pinimg.com/enabled_hi/564x/54/a8/56/54a856218f5e701d80d2954c413967cf.jpg">
+
+               <div id="img-container">
+                  <div class="imgejemplo">
+
+                     <img src="https://i.pinimg.com/564x/f9/a8/37/f9a8374812edd15526bec649d530f2f9.jpg">
+
+                  </div>
+                  <div class="imgejemplo">
+
+                     <img src="https://i.pinimg.com/enabled_hi/564x/6b/78/c9/6b78c957aba2d8da4e794016012c3708.jpg">
+
+                  </div>
+                  <div class="imgejemplo">
+
+                     <img src="https://i.pinimg.com/enabled_hi/564x/54/a8/56/54a856218f5e701d80d2954c413967cf.jpg">
+
+                  </div>
+               </div>
+
             </div>
 
             <hr />  
@@ -65,7 +88,7 @@
             <div>
 
                
-               <h3>Top de cosas que me gustan </h3>
+               <h3 class="title">Top de cosas que me gustan </h3>
                <p>Lista ordenada de cosas que me gustan</p>
                <ol>
                   <li>Jugar con mi perrita</li>
@@ -73,9 +96,26 @@
                   <li>Chismear con mis amigos</li>
                   
                </ol>
-               <img src="https://i.pinimg.com/enabled_hi/564x/5a/78/db/5a78dbe614bb86bb716258387df7a12d.jpg">
-               <img src="https://i.pinimg.com/564x/ec/2b/4d/ec2b4d604ad682a7c4847c186dbc90f3.jpg">
-               <img src="https://i.pinimg.com/enabled_hi/564x/86/86/60/86866086a066dee4f68fde1f11a54523.jpg">
+
+               <div id="img-container">
+                  <div class="imgejemplo">
+
+                     <img src="https://i.pinimg.com/enabled_hi/564x/5a/78/db/5a78dbe614bb86bb716258387df7a12d.jpg">
+
+                  </div>
+                  
+                  <div class="imgejemplo">
+
+                     <img src="https://i.pinimg.com/564x/ec/2b/4d/ec2b4d604ad682a7c4847c186dbc90f3.jpg">
+
+                  </div>
+                  <div class="imgejemplo">
+
+                     <img src="https://i.pinimg.com/enabled_hi/564x/86/86/60/86866086a066dee4f68fde1f11a54523.jpg">
+
+                  </div>
+               </div>
+
             </div>
 
             <hr />
